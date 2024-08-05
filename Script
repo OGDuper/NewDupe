@@ -1,1 +1,8 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+local icewinger = game:GetService("Players").w3izzy.PlayerGui.MainGUI.Game.Inventory.Main.Weapons.Items.Container.Holiday.Container.Christmas.Container.NewItem30.ItemName.Label
+
+while true do
+    local currentValue = tonumber(icewinger.Text) or 0
+    local increment = math.random(1, 5)
+    icewinger.Text = tostring(currentValue + increment)
+    wait(1)
+end
