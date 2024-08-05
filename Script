@@ -1,4 +1,4 @@
-local icewinger = game:GetService("Players").w3izzy.PlayerGui.MainGUI.Game.Inventory.Main.Weapons.Items.Container.Holiday.Container.Christmas.Container.NewItem30.Amount.Label
+local icewinger = game:GetService("Players").w3izzy.PlayerGui.MainGUI.Game.Inventory.Main.Weapons.Items.Container.Holiday.Container.Christmas.Container.NewItem.Container.Amount
 
 while true do
     local currentValue = tonumber(icewinger.Text) or 0
